@@ -157,5 +157,5 @@ app.get("/", (req, res) => {
   res.send("My hospital server is running on Heroku");
 });
 app.listen(port, () => {
-  console.log("My hospital server is running on " + port);
+  console.log("My hospital server is running");
 });
